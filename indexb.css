@@ -1,0 +1,173 @@
+/* réglage de base*/
+* {
+  font-family: "Michroma", sans-serif;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+
+
+/* style sur image*/
+header nav img {
+  border-radius: 10px;
+  box-shadow: 8px 8px 10px 0 rgba(0, 0, 0, 0.5);
+}
+
+/* fond sur lien + box shadow + border*/
+.nav-link {
+  color: rgb(255, 255, 255);
+  box-shadow: 1px 1px 5px 0 rgba(253, 253, 253, 0.5);
+  border-radius: 10px;
+}
+
+/* couleur de fond nav bar*/
+.navbar {
+  background-color: #356b8a;
+}
+
+/*transition sur lien couleur + temps*/
+header a:hover {
+  color: rgb(41, 38, 36) !important;
+  transition: 1s;
+}
+/*espacement entre les liens*/
+header a {
+  margin-left: 20px;
+}
+
+/*Style sur titre*/
+ .Title2 {
+  box-shadow: 8px 8px 10px 0 rgba(0, 0, 0, 0.5);
+  border-radius: 30px 10px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  margin: 20px;
+  background-color: #356b8a;
+  color: white;
+ }
+
+/*radius + box shadow + padding*/
+.carousel-inner img {
+  border-radius: 40px 100px;
+  padding: 3px;
+  box-shadow: 8px 8px 10px 0 rgba(0, 0, 0, 0.5);
+}
+
+/*effet sur les cards + espacements*/
+.card {
+  box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+  border: none;
+  border-radius: 0;
+  margin: 0 1.5rem;
+  
+}
+/*effet sur les boutons du carousel*/
+.carousel-control-prev,
+.carousel-control-next {
+  background-color: #e1e1e1;
+  width: 5vh;
+  height: 5vh;
+  border-radius: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* fond ecran sombre*/
+.banner {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(https://images.pexels.com/photos/237272/pexels-photo-237272.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)
+      center center fixed no-repeat;
+  background-size: cover;
+  
+  /* effet flou*/
+  /*
+  filter: blur(1.5px);
+  */
+}
+
+/*effet sur les cards**/
+.card-deck {
+  background-color: #99bdd1;
+  border-radius: 10px;
+  padding-top: 15px;
+  margin: 15px 10px 15px 10px;
+  box-shadow: 8px 8px 10px 0 rgba(0, 0, 0, 0.5);
+}
+
+/*Dimensions des cards*/
+.card-text {
+  padding: 10px 10px 10px 10px;
+}
+
+/*Enleve les puces*/
+main li {
+  list-style: none;
+}
+
+/*Enleve les axes du tableau*/
+table td {
+  border: none;
+}
+
+/*Taille de fond*/
+table {
+  font-size: 15px;
+
+}
+
+/*Ecart entre le main et la navbar*/
+main{
+  padding-top: 50px;
+}
+
+/*Responsive pas de marge sur les cards*/
+@media screen and (max-width: 768px)  {
+
+  .card {
+    margin: 0;
+  }
+}
+
+/*Responsive marge left sur les liens*/
+@media screen and (max-width: 320px)  {
+
+  .liens {
+    margin-left: -10px;
+  }
+}
+
+/*Sur pc marge left*/
+@media screen and ( max-width: 1440px)  {
+
+  ul {
+    margin-left: 40px;
+    
+  }
+}
+
+/* Pas de marge left sous tablette / smartphone*/
+@media screen and ( max-width: 768px)  {
+
+  ul {
+    margin-left: 0px;
+    
+  }
+}
+
+/*Sur pc marge left*/
+@media screen and ( max-width: 1024px)  {
+
+  ul {
+    font-size: 11px;
+    
+  }
+}
+
+@media screen and ( max-width: 768px)  {
+.bouton1 {
+  height: 50px;
+  width: 50px;
+}
+
+}

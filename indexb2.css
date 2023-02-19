@@ -1,0 +1,192 @@
+/* réglage de base*/
+* {
+  font-family: "Michroma", sans-serif;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+ 
+}
+
+/* no scroll Axe x*/
+body main {
+  overflow-x:hidden !important;
+}
+
+
+/* style sur image*/
+header nav img {
+  border-radius: 10px;
+  box-shadow: 8px 8px 10px 0 rgba(0, 0, 0, 0.5);
+  
+}
+
+/* fond sur lien + box shadow + border*/
+.nav-link {
+  color: rgb(255, 255, 255);
+  box-shadow: 1px 1px 5px 0 rgba(253, 253, 253, 0.5);
+  border-radius: 10px;
+}
+
+/* couleur de fond nav bar*/
+.navbar {
+  background-color: #356b8a;
+}
+
+/*transition sur lien couleur + temps*/
+header a h4:hover {
+  color: rgb(41, 38, 36) !important;
+  transition: 1s;
+}
+
+/*Style sur fond écran*/
+.customContainer {
+  background: linear-gradient(rgba(103, 176, 209, 0.8), rgba(103, 176, 209, 0.8)), url(https://images.pexels.com/photos/346529/pexels-photo-346529.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) fixed center center;
+  background-size: cover;
+  width: 100%;
+  padding: 10px 0;
+  color: white;
+  height: 170px;
+  margin-top: 50px;
+
+}
+
+/* Style sur titre compétition*/
+h4 {
+  color: white;
+  text-align: center;
+  border-radius: 5px;
+}
+
+/*Marge top sur container*/
+.container {
+margin-top: 100px;
+}
+
+
+/*boder sur image*/
+img {
+  border-radius: 10px;
+ 
+}
+
+/* Zoom sur images*/
+section img:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.18);
+
+}
+
+section img {
+    transition: transform 0.8s;
+    box-shadow: 10px 10px 10px 0 rgba(0, 0, 0, 0.5);
+    
+}
+
+/* Fond effet sombre avec image */
+section {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+  url(https://images.pexels.com/photos/237272/pexels-photo-237272.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)
+    center center fixed no-repeat;
+background-size: cover;
+
+}
+
+/*Marge top sur Titre détail de la compet*/
+.section-title {
+padding-top: 10px;
+
+}
+
+/* Sur mobile titre dimensionne */
+@media screen and (max-width: 320px)  {
+
+  .titre {
+    font-size: 20px;
+    
+  }
+
+}
+
+/* Sur mobile titre dimensionne */
+@media screen and (max-width: 768px)  {
+
+  li h4 {
+    font-size: 12px !important;
+    
+  }
+}
+
+/*opacité du texte*/
+.texte, .texte1 {
+  opacity:0.5;
+}
+
+/*Effet box shadow*/
+.texte1 {
+  box-shadow: 0px 0px 0px 8px rgba(233, 229, 229, 0.5);
+}
+
+/*Effet sur boite commentaire*/
+.contact .info-box {
+  color: #444444;
+  background: #fff;
+  text-align: center;
+  box-shadow: 0 0 30px rgb(214 215 216 / 60%);
+  padding: 20px 0 30px 0;
+}
+
+/*Effet sur boite commentaire*/
+.contact .php-email-form {
+  box-shadow: 0 0 30px rgb(214 215 216 / 60%);
+  padding: 30px;
+  background: #fff;
+}
+
+/*Effet sur bouton envoyer*/
+.button {
+  background: rgba(103, 176, 209, 0.8);
+  border: 0;
+  border-radius: 5px;
+  padding: 10px 24px;
+  color: #fff;
+  transition: 0.4s;
+}
+
+/*transition sur lien couleur + temps*/
+.button:hover {
+  color: rgb(41, 38, 36);
+  transition: 2s;
+}
+
+/*Style sur map*/
+.maps {
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px 0 rgba(0, 0, 0, 0.5);
+}
+
+/*Hauteur*/
+.rien {
+  height: 50px;
+}
+
+/*Opacité boite de dial*/
+.requete {
+  opacity: 0.5;
+}
+
+/*Dimension Li*/
+li h4 {
+  font-size: 15px;
+  margin-top: 5px;
+}
+/*Style sur souvenirs*/
+.période {
+  opacity: 0.5;
+  box-shadow: 0px 0px 0px 8px rgba(233, 229, 229, 0.5);
+  border-radius: 3px;
+  
+}
+
+
