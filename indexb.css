@@ -31,6 +31,8 @@ header a:hover {
   color: rgb(41, 38, 36) !important;
   transition: 1s;
 }
+
+/*rgb(41, 38, 36)*/
 /*espacement entre les liens*/
 header a {
   margin-left: 20px;
